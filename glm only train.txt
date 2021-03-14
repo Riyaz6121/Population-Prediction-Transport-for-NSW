@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = Population_density_2056 ~ t2 + Tbus, data = bank)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1241.8   -751.3   -146.6    364.3   3596.8  
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  2957.51     838.83   3.526  0.00373 **
+t2            -47.56      28.77  -1.653  0.12221   
+Tbus          -49.89      45.10  -1.106  0.28874   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 1549152)
+
+    Null deviance: 26047077  on 15  degrees of freedom
+Residual deviance: 20138970  on 13  degrees of freedom
+AIC: 278.14
+
+Number of Fisher Scoring iterations: 2
+
